@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.header{
+    text-align: center;
+    background-color: #b3f0b3;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+
+
+
+.fultable{
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: lightgreen;
+    border: 5px solid black;
+    /* margin: 100px; */
+    /* box-sizing: border-box; */
+     border-spacing: 50px; 
+     /* border-collapse: collapse; */
+    
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* tr:nth-child(even) {
+    background-color: #f2fff2;
+} */
+tr:hover {
+    background-color: darkgreen;
+}
+.BTN{
+    background-color: #4CAF50;
+    color: rgb(36, 126, 14);
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+.BTN:hover {
+    background-color: darkgreen;
+}
+.geo{
+    background-color: limegreen ;
+}
+.funter{
+
+background-color: limegreen ;
+
+}
+
